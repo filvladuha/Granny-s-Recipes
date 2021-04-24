@@ -1,0 +1,63 @@
+body {
+    background: url(bg2.jpg);
+    padding: 0;
+    margin: 0;
+    font-family: 'Orelega One', cursive;
+}
+
+nav {
+    width:1500px;
+    margin: 0 auto;
+}
+
+nav:before {
+    content: '';
+    display:block;
+    height:60px;
+    width:100%;
+    background: #ffbc22;
+    position:absolute;
+    left:0;
+    z-index:-1;
+}
+
+ul  {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    height: 60px;
+    font-size: 40px;
+    line-height: 60px;
+}
+
+ul li {
+    float: right;
+}
+
+ul li a {
+    color: black;
+    display: block;
+    height: 60px;
+    padding: 0 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 60px;
+    font-size: 18px;
+}
+
+ul li a:hover   {
+    background: antiquewhite;
+}
+
+p {
+    line-height: 1.8em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+.content {
+    font-size: 28px;
+    padding: 0 650px;
+}

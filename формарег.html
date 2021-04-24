@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Форма регистрации</title>
+  <link rel="stylesheet" href="формаРегЦсс.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Orelega+One&display=swap"
+        rel="stylesheet">
+  <nav>
+    <ul>
+      <li><a href="">Регистрация </a></li>
+      <li><a href="">Рецепты </a></li>
+      <li><a href="http://localhost:63342/projectsHTML/assets/indnex.html?_ijt=nqh1ib0jbh4a5jmfte2f0fq86a">Главная </a></li>
+      <h>Granny's Recipes</h>
+    </ul>
+  </nav>
+</head>
+<body>
+
+<br>
+<p style="text-align:center;"> <font size="10"> Регистрация.</font></p>
+  <div class="content">
+  <main>
+    <form action="act.php" method="POST">
+      <table>
+        <tr class="l">
+          <td >ФИО:</td>
+          <td><input type="text" placeholder="Чипикао Евгений Алексеевич." ></td>
+        </tr>
+
+        <tr class="l">
+          <td >Номер телефона:</td>
+          <td ><input type="tel" pattern="+7(911)XXX-XXX"
+                      placeholder="+7(911)XXX-XХ-XX"></td>
+        </tr>
+
+        <tr class="r">
+          <td>Электронная почта:</td>
+          <td><input type="email"
+                     placeholder="guap@mail.ru"></td>
+        </tr>
+
+        <tr class="l">
+          <td>Логин:</td>
+          <td><input type="email" required="required"
+                     placeholder=""></td>
+        </tr>
+
+        <tr class="r">
+          <td>Пароль:</td>
+          <td><input type="tel" name="parol_notify"></td>
+        </tr>
+
+        <tr class="l">
+          <td >Место проживания:</td>
+          <td><textarea placeholder="Санкт-Петербург,
+ул. Пушкина, д.228, кв 420"></textarea></td>
+        </tr>
+
+
+        <tr class="r">
+          <td>Дата рождения:</td>
+          <td><input type="date" placeholder="01-02-1998"></td>
+        </tr>
+
+        <tr class="l">
+          <td>Номер группы:</td>
+          <td><input type="text" required="required"
+                     placeholder="2845"></td>
+        </tr>
+
+        <tr class="l">
+          <td>Номер факультета:</td>
+          <td><input type="number" required="required"
+                     placeholder="2"></td>
+        </tr>
+
+        <tr class="l">
+          <td> Выберите название института: </td>
+          <td><select style="width: 300px; height: 50px;">
+            <option>Радиотехники, электроники и связи</option>
+            <option>Аэрокосмических приборов и систем</option>
+            <option>Инновационных технологий в электромеханике и робототехнике</option>
+            <option>Вычислительных систем и программирования</option>
+            <option>Информационных систем и защиты информации</option>
+            <option>Гуманитарный факультет</option>
+            <option>Юридический факультет</option>
+          </td>
+        </tr>
+
+
+        <tr class="l">
+          <td colspan="2"
+              align="center"><button>Отправить</button></td>
+        </tr>
+        </font>
+      </table>
+    </form>
+  </main>
+  </div>
+
+</body>
+</html>
+
